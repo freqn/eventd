@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'unicorn'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
+gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 
 group :development, :test do
   gem 'rspec-rails'
