@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'rspec-rails'
